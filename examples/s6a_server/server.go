@@ -23,10 +23,10 @@ import (
 
 	_ "net/http/pprof"
 
-	"github.com/fiorix/go-diameter/v4/diam"
-	"github.com/fiorix/go-diameter/v4/diam/avp"
-	"github.com/fiorix/go-diameter/v4/diam/datatype"
-	"github.com/fiorix/go-diameter/v4/diam/sm"
+	"github.com/mohammad-safakhou/go-diameter/v4/diam"
+	"github.com/mohammad-safakhou/go-diameter/v4/diam/avp"
+	"github.com/mohammad-safakhou/go-diameter/v4/diam/datatype"
+	"github.com/mohammad-safakhou/go-diameter/v4/diam/sm"
 	"io"
 )
 
