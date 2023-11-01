@@ -19,7 +19,7 @@ func init() {
 	var dictionaries = []struct{ name, xml string }{
 		{"Base", baseXML},
 		{"Credit Control", creditcontrolXML},
-		{"Gx Charging Control", gxcreditcontrolXML},
+		//{"Gx Charging Control", gxcreditcontrolXML},
 		{"Network Access Server", networkaccessserverXML},
 		{"TGPP", tgpprorfXML},
 		{"TGPP_Rx", tgpprxXML},
@@ -1172,7 +1172,6 @@ var diametersyXML = `<?xml version="1.0" encoding="UTF-8"?>
 //             <!-- 3GPP 29.212 -->
 //             <data type="IPFilterRule"/>
 //         </avp>
-
 
 //         <avp name="Charging-Rule-Install" code="1001" must="M,V" may="P" may-encrypt="Y" vendor-id="10415">
 //             <!-- 3GPP 29.212 Section 5.3.2 -->
@@ -7827,4 +7826,4 @@ var tgpprxXML = `<?xml version="1.0" encoding="UTF-8"?>
             		<data type="OctetString"/>
        </avp>
 	</application>
-</diameter>`	
+</diameter>`
